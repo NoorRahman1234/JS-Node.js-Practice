@@ -31,3 +31,53 @@
 /////////////////////////////////////////////////
 // var x;
 // console.log(x);                              // typeof x is  undefine because we didn't pass any values to x
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+   FUNCTIONS
+ // Function syntax in js
+//  function functionName(){    // function definition
+
+//  statment
+//  }
+//  functionName();     //function calling
+
+ EXAMPLE
+// function hello(){
+//     console.log("Hello Noor Rahman");
+// }
+// hello();
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+// FUNCTION WITH PATAMETER
+
+// Var a =10;
+// var b =20;
+//doument.write(a+b);
+
+
+// Var a =30;
+// var b =40;
+//doument.write(a+b);
+
+
+// Var a =25;
+// var b =55;
+//doument.write(a+b);
+
+ Syntax
+// function functionName(parameter1, parameter2){
+//     statement
+// }
+// functionName(argument1, argument2);
+
+ Example
+//  function Sum(a,b){
+//     console.log(a+b);
+//  }
+//  Sum(10,20);
+//  Sum(50,40);
