@@ -6,15 +6,15 @@
 
 /////////////////////////////////////////////////
 // var x=25;                       
-// console.log(x);
+// console.log(x);                 // typeof x is  string 
 
 /////////////////////////////////////////////////
 // var x =true;
-// console.log(x);
+// console.log(x);                  // typeof x is  boolean
 
 /////////////////////////////////////////////////
 // var x=["html","Css","js"];
-// console.log(x);
+// console.log(x);                      // typeof x is  object because array typeof shows object
 
 /////////////////////////////////////////////////
 // var x={ 
@@ -22,12 +22,12 @@
 //     lname:"Khan",
 //     age:"23"
 // }
-// console.log(x ,typeof x);
+// console.log(x ,typeof x);                // typeof x is  object object
  
 /////////////////////////////////////////////////
 // var x= null;
-// console.log(x);
+// console.log(x);                             // typeof x is  null
 
 /////////////////////////////////////////////////
 // var x;
-// console.log(x);
+// console.log(x);                              // typeof x is  undefine because we didn't pass any values to x
