@@ -2,14 +2,21 @@
 // document.write("Hi Noor..")
 
 // let a = "yahoo-baba";
-// document.write(a);
+// document.write(a);             // it shows the out put on browser
 
-// var x=25;
+/////////////////////////////////////////////////
+// var x=25;                       
+// console.log(x);
 
+/////////////////////////////////////////////////
 // var x =true;
+// console.log(x);
 
+/////////////////////////////////////////////////
 // var x=["html","Css","js"];
+// console.log(x);
 
+/////////////////////////////////////////////////
 // var x={ 
 //     fname:"Ali",
 //     lname:"Khan",
@@ -17,7 +24,10 @@
 // }
 // console.log(x ,typeof x);
  
+/////////////////////////////////////////////////
 // var x= null;
+// console.log(x);
 
-var x;
-console.log(x);
+/////////////////////////////////////////////////
+// var x;
+// console.log(x);
