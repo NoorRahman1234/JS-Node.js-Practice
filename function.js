@@ -106,3 +106,13 @@
 // percentage(total);
 
 /////////////////////////////////////////////////////////////////////////////////////
+// ARROW FUNCTION
+// Syntax
+// let hello =() => console.log("Hello");
+// hello();
+
+// Example
+// let welcome = (name, age) => {
+//     return ` "Hello and welcome" ${name}-${name}`
+// }
+// console.log(welcome ("yahoo Baba", 25));
