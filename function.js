@@ -37,7 +37,7 @@
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
-   FUNCTIONS
+  // FUNCTIONS
  // Function syntax in js
 //  function functionName(){    // function definition
 
@@ -45,7 +45,7 @@
 //  }
 //  functionName();     //function calling
 
- EXAMPLE
+// EXAMPLE
 // function hello(){
 //     console.log("Hello Noor Rahman");
 // }
@@ -69,15 +69,40 @@
 // var b =55;
 //doument.write(a+b);
 
- Syntax
+// Syntax
 // function functionName(parameter1, parameter2){
 //     statement
 // }
 // functionName(argument1, argument2);
 
- Example
+ //Example
 //  function Sum(a,b){
 //     console.log(a+b);
 //  }
 //  Sum(10,20);
 //  Sum(50,40);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+//FUNCTION WITH return
+// Syntax
+// function functionName(parameter1, parameter2){
+//     statement
+//     return value
+// }
+// var a = functionName(argument1, argument2);
+
+
+//EXAMPLE
+// function sum (math,eng,sc){
+//     var s = math + eng + sc;
+//     return s;
+// }
+// function percentage(tt){
+//     var per = tt/300*100;
+//     console.log(per);
+// }
+// var total = sum(80, 50 ,80);
+// percentage(total);
+
+/////////////////////////////////////////////////////////////////////////////////////
