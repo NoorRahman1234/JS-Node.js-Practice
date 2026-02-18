@@ -33,12 +33,43 @@
 //                     // .filter((num) => num >= 40)
 // console.log(newNums);
 
-
+/////////////////////////////////////////////////////////////////////////////////////
 // Convert Name to UpperCase
-const names = ["noor", "ali", "ahmad"];
+// const names = ["noor", "ali", "ahmad"];
 
-const upperNames = names.map((name) => name.toUpperCase());
+// const upperNames = names.map((name) => name.toUpperCase());
 
-console.log(upperNames);
+// console.log(upperNames);
 // ["NOOR", "ALI", "AHMAD"]
 
+/////////////////////////////////////////////////////////////////////////////////////
+// Reduce method of Array with examples
+// const cart = [
+//     { name: "Shirt", price: 500 },
+//     { name: "Shoes", price: 2000 },
+//     { name: "Cap", price: 300 }
+// ];
+
+// const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
+
+// console.log(totalPrice);  // total price will be  2800
+/////////////////
+
+// Example No 2
+// const Nums = [1, 2, 3];
+// const total = Nums.reduce(function (acc, currval){
+//     return acc + currval
+// }, 0 )
+// console.log(total);
+
+////////////////////////////////////////////////////////////
+// find and findIndex method of an array
+//  var ages = [10,23,19,20];
+//  console.log(ages);
+
+//  var b = ages.find(checkAdult);
+//  console.log(b);
+// function checkAdult(age){
+//     return age >= 18;   
+
+// }
