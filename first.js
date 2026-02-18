@@ -73,3 +73,9 @@
 //     return age >= 18;   
 
 // }
+///////////////////////////////////////////////////////////////
+// ForEach method of an array
+let nums = [19, 20 ,23, 53, 29, 82];
+nums.forEach((n)=>{
+console.log(n);
+});
