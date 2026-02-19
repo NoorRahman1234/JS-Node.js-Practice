@@ -24,13 +24,15 @@
 
 // Example No 3
 // Accessing object using different console 
+// const symbol = "MyKey1"
 // const JsUser = {
 //     name: "Noor",
 //     age: "22",
+//     symbol: "Mykey1",
 //     location: "Peshawar",
 //     email: "rahmanafr@gmail.com",
 //     isLoggedIn: "false",
 //     lastLoginDays: ["Monday", "Saturday"]
 // }
-// console.log(JsUser.email);
+// console.log(JsUser.symbol);
 // console.log(JsUser["email"]);
