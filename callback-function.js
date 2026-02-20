@@ -14,13 +14,15 @@
 
 
 // Example No 2
-function first() {
-    console.log("First function");
-}
+// function first() {
+//     console.log("First function");
+// }
 
-function second(callback) {
-    console.log("Second function");
-    callback();
-}
+// function second(callback) {
+//     console.log("Second function");
+//     callback();
+// }
 
-second(first);
+// second(first);
+
+// Output will be second function and first function
