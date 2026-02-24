@@ -119,35 +119,36 @@
 // //////////////////////////////////////////////////////////////////
 
 // Mini Project
-// const fs = require('fs');
+const fs = require('fs');
 
-// const command = process.argv[2];
-// const fileName = process.argv[3];
-// const content = process.argv[4];
+const command = process.argv[2];
+const fileName = process.argv[3];
+const content = process.argv[4];
 
-// if (command === 'create') {
-//     fs.writeFile(fileName, content, (err) => {
-//         if (err) throw err;
-//         console.log('File created!');
-//     });
-// }
-// else if (command === 'read') {
-//     fs.readFile(fileName, 'utf8', (err, data) => {
-//         if (err) throw err;
-//         console.log(data);
-//     });
-// }
-// else if (command === 'delete') {
-//     fs.unlink(fileName, (err) => {
-//         if (err) throw err;
-//         console.log('File deleted!');
-//     });
-// }
-// else {
-//     console.log('Invalid command');
-// };
+if (command === 'create') {
+    fs.writeFile(fileName, content, (err) => {
+        if (err) throw err;
+        console.log('File created!');
+    });
+}
+else if (command === 'read') {
+    fs.readFile(fileName, 'utf8', (err, data) => {
+        if (err) throw err;
+        console.log(data);
+    });
+}
+else if (command === 'delete') {
+    fs.unlink(fileName, (err) => {
+        if (err) throw err;
+        console.log('File deleted!');
+    });
+}
+else {
+    console.log('Invalid command');
+};
 
 // Output 
+// Run in terminal
 // node server.js create test.txt "Hello brother"
 // node server.js read test.txt
 // node server.js delete test.txt
