@@ -119,33 +119,33 @@
 // //////////////////////////////////////////////////////////////////
 
 // Mini Project
-const fs = require('fs');
+// const fs = require('fs');
 
-const command = process.argv[2];
-const fileName = process.argv[3];
-const content = process.argv[4];
+// const command = process.argv[2];
+// const fileName = process.argv[3];
+// const content = process.argv[4];
 
-if (command === 'create') {
-    fs.writeFile(fileName, content, (err) => {
-        if (err) throw err;
-        console.log('File created!');
-    });
-}
-else if (command === 'read') {
-    fs.readFile(fileName, 'utf8', (err, data) => {
-        if (err) throw err;
-        console.log(data);
-    });
-}
-else if (command === 'delete') {
-    fs.unlink(fileName, (err) => {
-        if (err) throw err;
-        console.log('File deleted!');
-    });
-}
-else {
-    console.log('Invalid command');
-};
+// if (command === 'create') {
+//     fs.writeFile(fileName, content, (err) => {
+//         if (err) throw err;
+//         console.log('File created!');
+//     });
+// }
+// else if (command === 'read') {
+//     fs.readFile(fileName, 'utf8', (err, data) => {
+//         if (err) throw err;
+//         console.log(data);
+//     });
+// }
+// else if (command === 'delete') {
+//     fs.unlink(fileName, (err) => {
+//         if (err) throw err;
+//         console.log('File deleted!');
+//     });
+// }
+// else {
+//     console.log('Invalid command');
+// };
 
 // Output 
 // Run in terminal
@@ -155,3 +155,18 @@ else {
 // first it will create a text file by the name of text.txt inside a file there will (Hello brother)
 // then it will read what ever we have inside a file 
 // and then it will delete a file 
+///////////////////////////////////////////////////////////////////////////////////////////
+
+// Express 
+// const express = require("express");
+// const app = express();
+// app.get("/", (req, res) =>{
+//     res.send("Hello Noor! Express is working");
+// });
+// app.listen(3000, ()=>{
+//     console.log("server is running on port 3000");
+// });
+
+// Output 
+// First it will show a message on terminial "server is runnning on port 3000"
+// second it will show on browser "Hello Noor! Express is working"
